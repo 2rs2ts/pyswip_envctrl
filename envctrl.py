@@ -336,4 +336,5 @@ def main():
     print "The application will now quit. All user information has been lost."
     return 0
 
-main()
+if __name__ == "__main__":
+    main()
